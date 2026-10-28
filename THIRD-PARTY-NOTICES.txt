@@ -1,0 +1,18 @@
+ECC content-hash-cache-pattern
+Copyright (c) 2026 Affaan Mustafa
+MIT. Python hashing helper reproduced/adapted in scripts/vendor/ecc_hash.py.
+Full notice: references/licenses/ECC-MIT.txt. Pinned source: references/sources.json.
+
+cinematic-site-demo
+Copyright (c) 2026 Taoufik El Aoumari
+MIT. Library-first reuse workflow adapted in the skill instructions.
+No generated assets or external service integrations are copied.
+Full notice: references/licenses/CINEMATIC-MIT.txt. Pinned source: references/sources.json.
+
+fclones
+Copyright (c) 2020 Piotr Kołaczkowski
+MIT. External scan-only dependency; no binary or Rust implementation bundled.
+License retained for reference: references/licenses/FCLONES-MIT.txt.
+
+File Organizer / ComposioHQ awesome-claude-skills
+Reference only. No copied code or prose; license unconfirmed in this inspection.

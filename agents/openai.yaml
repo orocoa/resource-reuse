@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resource Reuse"
+  short_description: "Reuse existing assets safely within each project"
+  default_prompt: "Use $resource-reuse to reuse assets only within this project’s main folder and preserve originals."

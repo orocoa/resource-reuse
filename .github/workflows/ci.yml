@@ -1,0 +1,35 @@
+name: Behavioral tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  macos:
+    name: macOS / Python ${{ matrix.python }}
+    runs-on: macos-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install the external detector
+        run: |
+          brew install fclones
+          echo "FCLONES_BINARY=$(command -v fclones)" >> "$GITHUB_ENV"
+          fclones --version
+      - name: Run behavioral tests outside the checkout
+        env:
+          RESOURCE_REUSE_TEST_ROOT: ${{ runner.temp }}/resource-reuse/pool-tests
+          RESOURCE_VIEW_TEST_ROOT: ${{ runner.temp }}/resource-reuse/view-tests
+          RESOURCE_LIBRARY_TEST_ROOT: ${{ runner.temp }}/resource-reuse/library-tests
+        run: python -B -m unittest discover -s tests -v

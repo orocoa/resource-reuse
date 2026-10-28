@@ -1,0 +1,44 @@
+[
+  {
+    "repository": "affaan-m/ECC",
+    "commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
+    "source": "skills/content-hash-cache-pattern/SKILL.md",
+    "source_url": "https://raw.githubusercontent.com/affaan-m/ECC/25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b/skills/content-hash-cache-pattern/SKILL.md",
+    "source_sha256": "c0242ee2fcb5c096d0625cb6957481fce2266e92985036795f5b5c13c329d802",
+    "license": "MIT",
+    "license_url": "https://raw.githubusercontent.com/affaan-m/ECC/25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b/LICENSE",
+    "license_sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+    "reuse_decision": "Extracted the SHA-256 Python function with attribution; integrate it in the existing pool."
+  },
+  {
+    "repository": "pkolaczk/fclones",
+    "commit": "a74f90d293e05856d19a4c0ac2b29b46ef16cf23",
+    "source": "fclones/README.md",
+    "source_url": "https://raw.githubusercontent.com/pkolaczk/fclones/a74f90d293e05856d19a4c0ac2b29b46ef16cf23/fclones/README.md",
+    "source_sha256": "c345ffd9b6c616c4c09b6a4f6450f0c8091ef9f92b46d7bd0d78624e5071d9e7",
+    "license": "MIT",
+    "license_url": "https://raw.githubusercontent.com/pkolaczk/fclones/a74f90d293e05856d19a4c0ac2b29b46ef16cf23/LICENSE",
+    "license_sha256": "fa876876689ee8c7ad01e3d332f53502bece80de772d4239dced8f3398014000",
+    "reuse_decision": "External scan-only CLI; no Rust duplicate detector reimplemented or binary bundled."
+  },
+  {
+    "repository": "taoufik123-collab/cinematic-site-demo",
+    "commit": "147e799177a707eb6f6ccee768ebed6a8a81e63c",
+    "source": "SKILL.md",
+    "source_url": "https://raw.githubusercontent.com/taoufik123-collab/cinematic-site-demo/147e799177a707eb6f6ccee768ebed6a8a81e63c/SKILL.md",
+    "source_sha256": "c24513b4c26d27018916f67266ff6e4a3f6e6220ac3e28837dda051fdf872d0b",
+    "license": "MIT",
+    "license_url": "https://raw.githubusercontent.com/taoufik123-collab/cinematic-site-demo/147e799177a707eb6f6ccee768ebed6a8a81e63c/LICENSE",
+    "license_sha256": "ae4f96530d505cabb62966c5175cb1e00084228cd164c169ff1690aec4f0c6c5",
+    "reuse_decision": "Adapted library-first lookup / reuse-before-generation workflow; no service APIs or assets copied."
+  },
+  {
+    "repository": "ComposioHQ/awesome-claude-skills",
+    "commit": "be2a406907dbc61b73e6827ded415c96139d13a2",
+    "source": "file-organizer/SKILL.md",
+    "source_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/be2a406907dbc61b73e6827ded415c96139d13a2/file-organizer/SKILL.md",
+    "source_sha256": "a8b91952bab7f73511db68149c4a54672b40699903a8e35ed5044c3e3039ded5",
+    "license": "unconfirmed",
+    "reuse_decision": "Read for workflow comparison only; no copied text/code because license unconfirmed."
+  }
+]
